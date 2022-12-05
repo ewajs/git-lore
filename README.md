@@ -19,3 +19,18 @@ Logs the history of the repo (the commit list).
 
 ### `git add [FILES]`
 Adds files from the working directory to the staging area. FILES is a list of space-separated files to move to the staging area. Using the `.` wildcard will add **all** files to the staging area.
+
+### `git commit`
+Makes a commit and adds it to the tip of the current branch. This will add a new node in our history. Commits usually have a **commit message** which is a short summary of the changes being done.
+#### Shortcut switches
+##### Add commit message inline
+To add the commit message in the same command use the `-m` switch followed by the commit message between double quotes:
+```bash
+git commit -m "This is the commit message."
+```
+
+##### git add all modified files and commit
+This command auto adds all **already** changed files to the staging area and creates the commit 
+```bash
+git commit -a
+```
