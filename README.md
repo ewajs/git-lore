@@ -34,3 +34,6 @@ This command auto adds all **already** changed files to the staging area and cre
 ```bash
 git commit -a
 ```
+
+## .gitignore
+`.gitignore` is a file that can be created in any repo (and in any folder of the repo) that lists files and folders that should be ignored by git. This is useful to avoid tracking as code things that are not code.
